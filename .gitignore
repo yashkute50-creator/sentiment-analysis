@@ -1,0 +1,19 @@
+# Python / env
+venv/
+__pycache__/
+*.pyc
+
+# Raw datasets (too large for GitHub)
+data/raw/
+*.csv
+
+# Model outputs / checkpoints (very large)
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.joblib
+
+# Notebooks
+.ipynb_checkpoints/
